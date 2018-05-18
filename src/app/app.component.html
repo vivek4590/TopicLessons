@@ -1,0 +1,146 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    <img width="30" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="> Welcome to {{ title }}!
+  </h1>
+  <h3>Welcome to {{message}}</h3>
+</div>
+<div>
+  <table style="border: 1px solid red;width:100%">
+    <tbody>
+            <tr>
+                    <td style="border: 1px solid black ;width: 50%" class="sectionBoxLeft">
+                        <div class="sectionBoxLeft">
+                            <div>
+                                    <h3 class="sectionheader">----------Working With Interpolation---------</h3>
+                                    <app-interpolation></app-interpolation>
+                                    <h3 class="sectionheder">------------------Finish---------------------</h3>
+                              </div>
+                        </div>  
+                    </td>
+                    <td style="border: 1px solid black;width: 50%" class="sectionBoxRight">
+                        <div class="sectionBoxRight">
+                            <div>
+                                    <h3 class="sectionheader">----------Working with Propety Binding----------</h3>
+                    <app-property-binding></app-property-binding>
+                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                            </div>
+                        </div>
+                    </td>
+                  </tr>
+            <tr>
+                    <td style="border: 1px solid black ;width: 50%" class="sectionBoxLeft">
+                        <div class="sectionBoxLeft">
+                            <div>
+                                    <h3 class="sectionheader">----------Working with Class Binding----------</h3>
+                                    <app-class-binding></app-class-binding>
+                                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                              </div>
+                        </div>  
+                    </td>
+                    <td style="border: 1px solid black;width: 50%" class="sectionBoxRight">
+                        <div class="sectionBoxRight">
+                            <div>
+                                    <h3 class="sectionheader">----------Working with Style Binding----------</h3>
+                                    <app-style-binding></app-style-binding>
+                                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                            </div>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="border: 1px solid black ;width: 50%" class="sectionBoxLeft">
+                        <div class="sectionBoxLeft">
+                            <div>
+                                    <h3 class="sectionheader">----------Working with Event Binding----------</h3>
+                                    <app-event-binding></app-event-binding>
+                                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                              </div>
+                        </div>  
+                    </td>
+                    <td style="border: 1px solid black;width: 50%" class="sectionBoxRight">
+                        <div class="sectionBoxRight">
+                            <div>
+                                    <h3 class="sectionheader">----------Working with Template Reference Variable----------</h3>
+                                    <app-templatvariable></app-templatvariable>
+                                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                            </div>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="border: 1px solid black ;width: 100%" class="sectionBoxLeft">
+                        <div class="sectionBoxLeft">
+                            <div>
+                                    <h3 class="sectionheader">----------Working with Two Way Binding----------</h3>
+                                    <app-two-way-binding></app-two-way-binding>
+                                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                              </div>
+                        </div>  
+                    </td>
+                  </tr>
+      <tr>
+        <td style="border: 1px solid black ;width: 50%" class="sectionBoxLeft">
+            <div class="sectionBoxLeft">
+                <div>
+                    <h3 class="sectionheader">----------Working with Structural Directives----------</h3>
+                    <app-structuraldirectives></app-structuraldirectives>
+                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                  </div>
+            </div>  
+        </td>
+        <td style="border: 1px solid black;width: 50%" class="sectionBoxRight">
+            <div class="sectionBoxRight">
+                <div>
+                    <h3 class="sectionheader">----------Working with Structural Directives----------</h3>
+                       <app-structuraldirectives1></app-structuraldirectives1>
+                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                </div>
+            </div>
+        </td>
+      </tr>
+      <tr style="width: 100%">
+        <td style="border: 1px solid black ;width: 50%" class="sectionBoxLeft">
+           <div class="sectionBoxLeft">
+              <div>
+                  <h3 class="sectionheader">----------Working with Component Interaction----------</h3>
+                    <app-child-component (childEvent)="message=$event" [parentData]="name" ></app-child-component>
+                  <h3 class="sectionheader">--------------------Finish----------------------</h3>
+              </div> 
+          </div>
+        </td>
+          <td style="border: 1px solid black;width: 50%" class="sectionBoxRight">
+              <div class="sectionBoxRight">
+                <div>
+                    <h3 class="sectionheader">----------Working with Pipes----------</h3>
+                    <app-pipes></app-pipes>
+                    <h3 class="sectionheader">--------------------Finish----------------------</h3>     
+                </div>
+              </div>
+              
+          </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black ;width: 50%" class="sectionBoxLeft">
+            <div class="sectionBoxLeft">
+                <div>
+                    <h3 class="sectionheader">----------Working with Services----------</h3>
+                    <app-student-list></app-student-list>
+                    <app-student-details></app-student-details>
+                    <h3 class="sectionheader">--------------------Finish----------------------</h3>
+                  </div>
+            </div>  
+        </td>
+        <td style="border: 1px solid black;width: 50%" class="sectionBoxRight">
+            <div class="sectionBoxRight">
+                <div>
+                    <h3 class="sectionheader">Thank You</h3>  
+                </div>
+            </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+

@@ -1,0 +1,13 @@
+.sectionheader{
+    color:red;
+    padding-left: 12%;
+    text-align: center
+}
+.sectionBoxLeft{
+    
+    background-color: azure;
+}
+.sectionBoxRight{
+    
+    background-color: whitesmoke;
+}
